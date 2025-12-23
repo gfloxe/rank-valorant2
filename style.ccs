@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+  font-family: Montserrat, sans-serif;
+}
+
+.valo-widget {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 14px;
+  color: white;
+  width: fit-content;
+}
+
+#rank-icon {
+  width: 54px;
+  height: 54px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tag {
+  opacity: 0.7;
+  margin-left: 6px;
+}
+
+.rank {
+  margin-top: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
